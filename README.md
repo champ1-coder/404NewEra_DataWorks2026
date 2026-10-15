@@ -29,7 +29,10 @@ The large rock-property files (`03`–`08`) were inspected but are not used: the
 ```
 dataworks/
   proxy_model.py  history_matching.py  forecast.py  README.md
-  data/   01_Introduction.xlsx  02_Field_Production.xlsx  09_Template_Deliverable.xlsx
+  data/
+    01_Introduction.xlsx
+    02_Field_Production.xlsx
+    09_Template_Deliverable.xlsx
 ```
 
 ## 3. How to run (Windows, from inside the `dataworks` folder)
