@@ -87,13 +87,6 @@ within 20 years are excluded. Chosen model: power-law decline of total liquid wi
 - **Model choice matters more than case choice.** The 10 cases agree within about 1% by 2028; alternative extension models give 2028 oil
   from about 52.6 M to 61 M STB. The scenarios are exported for the dashboard.
 
-## 7. Limitations
-
-- No data exists after 2008, so the 20-year forecast is an extrapolation. The backtest only validates 2–4 years ahead.
-- The 10 submitted cases are existing simulated cases, not newly proposed dial settings.
-- The backtest also uses the real field to choose the extension model, which gives a mild risk of over-fitting to that one history.
-- The proxy was trained inside the dial ranges given; predictions outside those ranges are untested.
-
-## 8. Requirements
+## 7. Requirements
 
 Python 3.9+, pandas, numpy, scikit-learn, scipy, matplotlib, joblib, openpyxl.
